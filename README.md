@@ -1,0 +1,53 @@
+# Колледж-Библиотека (`college_library`)
+
+Учебный проект: система учёта книг библиотеки колледжа.
+
+## 1. Назначение
+
+Проект демонстрирует структуру Python-пакета,
+размещение исходного кода и автоматизированных тестов.
+
+## 2. Установка
+
+Создать виртуальное окружение:
+
+```bash
+python -m venv .venv
+```
+
+Активировать окружение.
+
+Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+Linux/macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+Установить зависимости и проект:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pip install -e .
+```
+
+## 3. Запуск
+
+```bash
+python -m college_library.main
+```
+
+## 4. Тестирование
+
+```bash
+python -m pytest
+```
+
+## 5. Автор
+
+Студент группы: <НОМЕР ГРУППЫ>. <ФИО студента>

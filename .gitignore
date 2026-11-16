@@ -1,0 +1,30 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Кэш и результаты тестирования
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Локальные настройки IDE
+.idea/
+.vscode/
+
+# Локальные секреты
+.env
+.env.*
+
+# Артефакты сборки
+build/
+dist/
+*.egg-info/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
