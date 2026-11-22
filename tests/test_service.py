@@ -7,3 +7,6 @@ def test_late_fee_zero_days():
 
 def test_late_fee_three_days():
     assert calculate_late_fee(3) == 30
+
+def test_late_fee_negative_days():
+    assert calculate_late_fee(-3) == 0
